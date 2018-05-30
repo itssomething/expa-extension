@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Expa Token Getter",
+ 	"description": "A random extension to get expa token",
+ 	"version": "0.1",
+ 	"author": "Manh",
+	"browser_action": {
+		"default_popup": "newtab.html",
+  	"default_icon": "tab-icon2.png",
+  	"default_title": "Have a good day"
+ },
+	"chrome_url_overrides" : {
+},
+	"permissions": [
+		"activeTab",
+		"cookies",
+		"*://*.aiesec.org/*",
+		"https://experience-v2.aiesec.org/#/",
+		"https://expa.aiesec.org/"
+	]
+}
